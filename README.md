@@ -11,6 +11,8 @@ This is my portfolio site, which has been re-made using React for a better user 
 
 ## Usage
 
+[Deployed Link](https://calm-refuge-81291.herokuapp.com/)
+
 On the Portfolio Page, if you click on a project screenshot, a modal will pop up with a link to both the GitHub Repo it is on, as well as a link to the deployed application:
 
 ![Search Screenshot](https://raw.githubusercontent.com/DanGillette25/react-portfolio/main/screenshots/screenshot1.JPG)
