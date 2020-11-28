@@ -1,6 +1,7 @@
 import Portfolio from './portfolio';
 import Home from "./main/index"
 import Contact from "./contact/index"
+import Footer from './footer/footer'
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -36,6 +37,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+  <Footer />
   </div>
   );
 }

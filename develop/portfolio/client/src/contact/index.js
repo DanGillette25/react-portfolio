@@ -1,11 +1,12 @@
 import React from "react";
 import { Form, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 
 function Contact() {
   return (
 
-    <div>
+    <div className="content center rounded">
         
         <h2>Contact</h2>
         

@@ -48,48 +48,69 @@ function Portfolio() {
         </Modal.Footer>
     </Modal>
 
-      
-    <img src={breakaway} 
+    <div className="content rounded center">
+
+    <h2>Portfolio</h2>
+
+    <div className="container">
+      <div className="row">
+    <img 
+    className="col-sm-6 img-margin"
+    src={breakaway} 
     onClick={e=> populateModal(e.target.id)}
     alt = "Breakaway"
-    height='150' 
+    height='300' 
     width='150' 
     id='2'/>
 
-    <img src={codingquiz}
+    <img className="col-sm-6 img-margin" 
+    src={codingquiz}
     onClick={e=> populateModal(e.target.id)}
     alt = "Coding Quiz"
-    height='150' 
+    height='300' 
     width='150' 
     id='1'/>
- 
-    <img src={discoverserenity}
+
+    </div>
+
+    <div className="row">
+    <img className="col-sm-6 img-margin"
+    src={discoverserenity}
     onClick={e=> populateModal(e.target.id)}
     alt = "DiscoverSerenity"
-    height='150' 
+    height='300' 
     width='150' 
     id='4'/>
 
-    <img src={employeedb}
+    <img className="col-sm-6 img-margin"
+    src={employeedb}
     onClick={e=> populateModal(e.target.id)}
     alt = "EmployeeDB"
-    height='150' 
+    height='300' 
     width='150' 
     id='0'/>
-   
-    <img src={notetaker}
+
+    </div>
+ 
+    <div className="row">
+    <img className="col-sm-6 img-margin"
+    src={notetaker}
     onClick={e=> populateModal(e.target.id)}
     alt = "NoteTaker"
-    height='150' 
+    height='300' 
     width='150' 
     id='5'/>
 
-    <img src={weather} 
+    <img className="col-sm-6 img-margin"
+    src={weather} 
     onClick={e=> populateModal(e.target.id)}
     alt = "Weather Dashboard"
-    height='150' 
+    height='300' 
     width='150' 
     id='3'/>
+    </div>
+    </div>
+    </div>
     
     </div>
   )
